@@ -5,7 +5,7 @@ pipeline {
         stage('Pull Code') {
             steps {
                 // For public repositories
-                git branch: 'main', url: 'https://github.com'
+                git branch: 'main', url: 'https://github.com/yammiesolution/Test-App'
                 
                 // For private repositories, attach your Jenkins credential ID
                 // git branch: 'main', credentialsId: 'github-token-id', url: 'https://github.com'
